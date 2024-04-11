@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        height: 10vh;
+        list-style-type: none;
+        width: 10vw;
+        background-color: bisque;
+        line-height: 10vh;
+        border-bottom: 1px solid white;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        margin-top: -10vh;
+    }
+    li:hover nav{
+        display: block;
+    }
+    nav li{
+        margin-left: 10vw;
+    }
+</style>
+<body>
+    <div>
+        <li>DUC THANG</li>
+        <li>DUC THANG
+            <nav>
+                <li>DUC THANG</li>
+                <li>DUC THANG</li>
+                <li>DUC THANG</li>
+            </nav>
+        </li>
+        <li>DUC THANG</li>
+        <li>DUC THANG</li>
+        <li>DUC THANG</li>
+        <li>DUC THANG</li>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    width: 100vw;
+    background-color: burlywood;
+}
+
+a{
+    text-decoration: none;
+}
+
+a li{
+    list-style-type: none;
+    float: left;
+    width: calc(80vw/6);
+    text-align: center;
+    line-height: 5vh;
+}
+
+a li:hover{
+    background-color: bisque;
+}
+
+nav{
+    position: absolute;
+    display: none;
+}
+
+li:hover nav{
+    display: block;
+}
+
+nav li{
+    background-color: cadetblue;
+    clear: left;
+}
