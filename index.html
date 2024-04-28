@@ -1,97 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        li{
+            list-style-type: none;
+            width: 15vw;
+            height: 7vh;
+            line-height: 7vh;
+            background-color: rgb(167, 141, 191);
+            border-bottom: 1px solid black;
+        }
+        li:hover{
+            background-color: cyan;
+        }
+        nav{
+            position: absolute;
+            display: none;
+            left: 15vw;
+            top: 17vh;
+        }
+        li:hover nav{
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <header>
-            <div class="header1"><p style="font-size: 40px;margin-top: 4vh;">Crevil</p></div>
-            <div >
-                <input  style="border-radius: 10px;margin-left: 44vw; margin-top: 1vh" placeholder="Go tu de tim kiem" type="text">
-            
-            <div>
-                <li>Info</li>
-            <li class="submenu">Product
+    <header style="width: 100vw; height: 10vh; background-color: antiquewhite;">
+        <p style="text-align: center;line-height: 4vh;">
+            TRUONG DAI HOC BACH KHOA HA NOI
+            <br>KHOA CONG NGHE THONG TIN
+        </p>
+        <img style="position: absolute;top: 0;height: 10vh;" src="./Ảnh chụp màn hình 2024-04-22 103617.png" alt="">
+    </header>
+
+    <div style="display: flex;"> 
+        <div class="menu">
+            <li>Trang chu</li>
+            <li>Cac khoa
                 <nav>
-                    <li>ABC THANG</li>
-                    <li>ABC THANG</li>
-                    <li>ABC THANG</li>
+                    <li>Khoa CNTT</li>
+                    <li>kHOA DIEN </li>
+                    <li>kHOA HOA</li>
                 </nav>
             </li>
-            <li>News</li>
-            <li>Libraby</li>
-            <li>Video</li>
-            <li>Contact</li>
-            <li>Dai Ly</li>
-            <li>Hoi dap</li>
+            <li>Support</li>
+            <li>Dang ky</li>
+            <li>Cau lac bo</li>
+            <li>Ket ban 4 phuong</li>
+            <li>Dao tao LTV</li>
+        </div>
+        <div style="width: 50vw; border-left: 5vw solid white;border-right: 10vw solid white; ">
+            <div style="display: flex;">
+                <img style="border-radius: 50%;" src="./Ảnh chụp màn hình 2024-04-22 103617.png" alt="">
+                <p>Cảm giác như ở một chốn bình yên nào đó , nhắm mắt lại cảm nhận như xung quanh mình là 1 đồng cỏ , gió thổi nhè nhẹ , những tán cây xà vào nhau như vô tay , thật bình yên , thật yêu thiên nhiên</p>
             </div>
+            <div style="display: flex;">
+                <img style="border-radius: 50%;" src="./Ảnh chụp màn hình 2024-04-22 103617.png" alt="">
+                <p>Cảm giác như ở một chốn bình yên nào đó , nhắm mắt lại cảm nhận như xung quanh mình là 1 đồng cỏ , gió thổi nhè nhẹ , những tán cây xà vào nhau như vô tay , thật bình yên , thật yêu thiên nhiên</p>
             </div>
-        </header>
-    </div>
-    <div class="content">
-        <img style="height: 40vh; width: 100vw;" src="./ok.png" alt="">
-    </div>
-    <div>
-        <br>
-        <p style="text-align: center; font-size: 20px;">DANH MUC SAN PHAM</p>
-        <hr style="width: 20vw; margin-left: calc(80vw/2);">
-        <br>
-        <div style="display: flex; justify-content: space-around;">
-            <div class="div1" >
-                <img style="width: 8.8vw; height: 12vh; margin-left: 0.65vw;"  src="./icon.png" alt="">
-                <div style="margin-left: 0.65vw;">
-                    
-                <b>DUCTHANG</b>
-                <br>
-                <p></p>
-                </div>
-            </div>
-            <div class="div1" >
-                <img style="width: 8.8vw; height: 12vh; margin-left: 0.65vw;"  src="./icon.png" alt="">
-                <div style="margin-left: 0.65vw;">
-                    
-                <b>DUCTHANG</b>
-                <br>
-                <p>Toi ten la trinh duc thang toi den tu phu</p>
-                </div>
-            </div>
-            <div class="div1" >
-                <img style="width: 8.8vw; height: 12vh; margin-left: 0.65vw;"  src="./icon.png" alt="">
-                <div style="margin-left: 0.65vw;">
-                    
-                <b>DUCTHANG</b>
-                <br>
-                <p>Toi ten la trinh duc thang toi den tu phu</p>
-                </div>
-            </div>
-            <div class="div1" >
-                <img style="width: 8.8vw; height: 12vh; margin-left: 0.65vw;"  src="./icon.png" alt="">
-                <div style="margin-left: 0.65vw;">
-                    
-                <b>DUCTHANG</b>
-                <br>
-                <p>Toi ten la trinh duc thang toi den tu phu</p>
-                </div>
-            </div>
-            <div class="div1" >
-                <img style="width: 8.8vw; height: 12vh; margin-left: 0.65vw;"  src="./icon.png" alt="">
-                <div style="margin-left: 0.65vw;">
-                    
-                <b>DUCTHANG</b>
-                <br>
-                <p>Toi ten la trinh duc thang toi den tu phu</p>
-                </div>
-            </div>
-            </div>
+            <div style="display: flex;">
+                <img style="border-radius: 50%; " src="./Ảnh chụp màn hình 2024-04-22 103617.png" alt="">
+                <p>Cảm giác như ở một chốn bình yên nào đó , nhắm mắt lại cảm nhận như xung quanh mình là 1 đồng cỏ , gió thổi nhè nhẹ , những tán cây xà vào nhau như vô tay , thật bình yên , thật yêu thiên nhiên</p>
             </div>
         </div>
-        <footer style="position: absolute; bottom: 0; height: 5vh; background-color: burlywood; width: 100vw;">
-            <p style="line-height: 5vh;">SABJHbashjHJASHSDAADS</p>
-        </footer>
+        <div>
+            <table border="1" style="border-collapse: collapse;width: 16vw;">
+            <tr>
+                <th ><a href="">Dang ky</a></th>
+                <th ><a href="">Dang nhap</a></th>
+            </tr>
+        </table>
+        <br><br><br><br><br>
+        <table>
+            <table border="1" style="width: 16vw;">
+                <tr>
+                    <th>Ho tro sinh vien </th>
+                </tr>
+                <tr>
+                    <td>
+                        A 
+                        <br>
+                        b
+                        <br>
+                        A 
+                        <br>
+                        b
+                        <br>
+                        A 
+                        <br>
+                        b
+                        <br>
+                    </td>
+                </tr>
+            </table>
+        </table>
+        <br><br><br><br>
+        <table border="1" style="width: 16vw;">
+            <tr>
+                <th colspan="2">Tim kiem</th>
+            </tr>
+            <tr>
+                <td>Loai tour</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Noi di</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Noi den</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Gia tu</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Gia den</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div style="text-align: center;"><button>Tim kiem</button></div>
+                </td>
+            </tr>
+        </table>
+        </div>
     </div>
+    <footer style="position: absolute;bottom: 0; width: 100vw;height: 5vh;background-color: brown;">
+        <p style="text-align: center; font-size: 30px;">Ban quyen thuoc khoa CNTT</p>
+    </footer>
 </body>
 </html>
